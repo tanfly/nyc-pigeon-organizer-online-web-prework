@@ -22,7 +22,7 @@ def nyc_pigeon_organizer(data)
   data.map do |hash, info|
     info.map do |category, array|
       array.map do |name|
-        if pigeon_list[array_value].to_s.uniq
+        pigeon_list[array_value].to_s.uniq
           pigeon_list[array_value].to_s.uniq << symb_key
         else 
           pigeon_list[array_value].to_s.uniq = symb_key
