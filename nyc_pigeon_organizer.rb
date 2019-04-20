@@ -38,5 +38,9 @@ data[:color].each do |color, bird_name|
     end
   end
   
-  data[:gender]
+  data[:gender].each do |gender, bird_name|
+    bird_name.each do |names|
+      pigeon_list_keys.each do |x|
+        if names == x 
+          pigeon_list[x][:gender] << gender.to_s
     
