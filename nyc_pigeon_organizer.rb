@@ -27,5 +27,7 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-pigeon_list_keys = pigeon_list.keys
+pigeon_list_keys = pigeon_list.keys 
+
+data[:color] = 
     
