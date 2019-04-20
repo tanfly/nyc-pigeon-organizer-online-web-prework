@@ -34,4 +34,9 @@ data[:color].each do |color, bird_name|
     pigeon_list_keys.each do |x|
       if names == x 
         pigeon_list[x][:color] << color.to_s
+      end
+    end
+  end
+  
+  
     
