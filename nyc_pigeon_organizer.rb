@@ -25,5 +25,5 @@ def nyc_pigeon_organizer(data)
         if pigeon_list[array_value].to_s.uniq
           pigeon_list[array_value].to_s.uniq <<
         else 
-          pigeon_list[array_value].to_s.uniq 
+          pigeon_list[array_value].to_s.uniq = symb_key
 end
