@@ -43,4 +43,9 @@ end
       pigeon_list_keys.each do |x|
         if names == x 
           pigeon_list[x][:gender] << gender.to_s
+        end
+      end
+    end
+  end
+  data[]
     
