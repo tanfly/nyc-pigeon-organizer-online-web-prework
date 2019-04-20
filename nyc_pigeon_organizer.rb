@@ -52,4 +52,10 @@ end
       pigeon_list_keys.each do |x|
         if names == x 
           pigeon_list[x][:lives] << location.to_s
+        end
+      end
+    end
+  end
+  return pigeon_list
+end
     
