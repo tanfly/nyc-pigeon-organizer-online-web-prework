@@ -47,5 +47,9 @@ end
       end
     end
   end
-  data[]
+  data[:lives].each do |location, bird_name|
+    bird_name.each do |names|
+      pigeon_list_keys.each do |x|
+        if names == x 
+          pigeon_list[x][:lives] << location.to_s
     
