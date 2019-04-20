@@ -26,4 +26,6 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-end
+  data.map do |hash, info|
+    info.map do |category, array|
+      
