@@ -33,6 +33,7 @@ def nyc_pigeon_organizer(data)
           pigeon_list[name][category] << array
         end
       end
+    end
         
         return pigeon_list
     end
