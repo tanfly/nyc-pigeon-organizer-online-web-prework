@@ -31,7 +31,7 @@ def nyc_pigeon_organizer(data)
       pigeon_list.each do |info_array, pigeon_name|
         if array.include?(pigeon_name)
           pigeon_list[name][category] << array
-        end
-      end
+        
+        return pigeon_list
     end
     
