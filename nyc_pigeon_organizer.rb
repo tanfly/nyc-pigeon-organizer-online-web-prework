@@ -28,4 +28,5 @@ def nyc_pigeon_organizer(data)
   end
   data.map do |hash, info|
     info.map do |category, array|
-      pigeon_list.each do |info_array|
+      pigeon_list.each do |info_array, pigeon_name|
+        if array
