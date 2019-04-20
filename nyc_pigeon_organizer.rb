@@ -38,5 +38,5 @@ data[:color].each do |color, bird_name|
     end
   end
   
-  
+  data[:gender]
     
