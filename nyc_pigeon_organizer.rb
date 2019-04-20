@@ -31,5 +31,6 @@ pigeon_list_keys = pigeon_list.keys
 
 data[:color].each do |color, bird_name|
   bird_name.each do |names|
-    pigeon_list_keys.each do 
+    pigeon_list_keys.each do |x|
+      
     
