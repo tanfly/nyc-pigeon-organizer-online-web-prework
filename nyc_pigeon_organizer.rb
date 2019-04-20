@@ -23,7 +23,7 @@ def nyc_pigeon_organizer(data)
   data.map do |hash, info|
     info.map do |category, array|
       array.map do |name|
-        pigeon_list[array] = {:color => [], :gender => [], :lives => []}
+        pigeon_list[name] = {:color => [], :gender => [], :lives => []}
       end
     end
   end
