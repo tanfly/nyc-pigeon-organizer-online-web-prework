@@ -37,7 +37,7 @@ data[:color].each do |color, bird_name|
       end
     end
   end
-  
+end
   data[:gender].each do |gender, bird_name|
     bird_name.each do |names|
       pigeon_list_keys.each do |x|
