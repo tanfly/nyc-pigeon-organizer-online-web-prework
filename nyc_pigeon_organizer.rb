@@ -30,4 +30,4 @@ def nyc_pigeon_organizer(data)
     info.map do |category, array|
       pigeon_list.each do |info_array, pigeon_name|
         if array.include?(pigeon_name)
-          
+          pigeon_list[name]
