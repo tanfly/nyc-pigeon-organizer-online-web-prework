@@ -23,4 +23,5 @@ def nyc_pigeon_organizer(data)
     info.map do |symb_key, hash_value|
       hash_value.map do |key, array_value|
         if pigeon_list[array_value].uniq.to_s
+          pigeon_list[array_value].uniq.to_s <<
 end
